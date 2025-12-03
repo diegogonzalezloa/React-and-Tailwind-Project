@@ -56,7 +56,7 @@ Then press the key `o` or click on the local link `http://localhost:5173/`
 
 ## License
 
-<a href="https://choosealicense.com/licenses/apache-2.0/" target="_blank" rel="noopener noreferrer">Apache 2.0</a>
+<a href="LICENSE.txt" target="_blank" rel="noopener noreferrer">Apache 2.0</a>
 
 ## Author
 
