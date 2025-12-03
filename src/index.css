@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+body {
+    font-family: "Author", sans-serif;
+}
+
+.unselected {
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}
+
+@keyframes pulseAnimation {
+    from,
+    to {
+        background-color: black;
+    }
+    50% {
+        background-color: transparent;
+    }
+}
+
+@keyframes autoScroll {
+    20% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-107%);
+    }
+}
